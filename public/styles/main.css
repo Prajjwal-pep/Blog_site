@@ -16,36 +16,39 @@ a {
 }
 
 body {
-  background-color: #f7f9fc;
+  background-image: url(../body-bg.jpg);
+  /* background-color: #f7f9fc; */
   color: #333;
   line-height: 1.6;
 }
 
 .container {
+  /* background-image: url(../bg.jpg); */
   max-width: 800px;
   margin: 50px auto;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.349);
   padding: 20px 40px;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(255, 253, 253, 0.1);
 }
 
 h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
-  color: #444;
+  color: rgba(240, 248, 255, 0.600);
 }
 
 h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: #555;
+  color: rgba(240, 248, 255, 0.700);
 }
 
 p,
 input,
 textarea {
   margin-bottom: 20px;
+  color: #eee;
 }
 
 small {
@@ -73,7 +76,7 @@ textarea:focus {
 a,
 button {
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #009dff;
   color: #fff;
   padding: 10px;
   font-size: 1em;
@@ -108,16 +111,19 @@ li:last-child {
 }
 
 a.edit {
-  background-color: #007bff;
+  background-color: #0080ff;
   /* margin-right: 10px; */
+}
+a.edit:hover{
+  background-color: #0CAFFF;
 }
 
 a.delete {
-  background-color: #e74c3c;
+  background-color: #a5291b;
 }
 
 a.delete:hover {
-  background-color: #c0392b;
+  background-color: #781a0f;
 }
 
 #newPostBtn {
